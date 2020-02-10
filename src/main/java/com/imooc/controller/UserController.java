@@ -21,9 +21,8 @@ public class UserController {
     @ResponseBody
     public User hello(){
         User u = new User();
-        u.setName("wang");
+        u.setName("dashhh321sdasdsdasdsdasd反击321hh55");
         u.setBirthday(new Date());
-        u.setAge(12);
         u.setPassword("7777");
         u.setDesc(null);
         return u;
@@ -33,11 +32,11 @@ public class UserController {
     @ResponseBody
     public JSONResult JSONResult(){
         User u = new User();
-        u.setName("wang");
+        u.setName("wangshuaishuai");
         u.setBirthday(new Date());
         u.setAge(12);
         u.setPassword("7777");
-        u.setDesc("hello mooc");
+        u.setDesc("hello mooc2");
         return JSONResult.ok(u);
     }
 }
