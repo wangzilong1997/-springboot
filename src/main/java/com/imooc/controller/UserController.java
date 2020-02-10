@@ -37,7 +37,7 @@ public class UserController {
         u.setBirthday(new Date());
         u.setAge(12);
         u.setPassword("7777");
-        u.setDesc(null);
+        u.setDesc("hello mooc");
         return JSONResult.ok(u);
     }
 }
